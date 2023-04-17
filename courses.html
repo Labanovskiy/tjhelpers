@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./libs/autoComplete/dist/css/autoComplete.01.css">
+</head>
+<body>
+    <!-- HEADER NAVIGATION-->
+    <header class="header">
+            <div class="contaner">
+                <div class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="index.html" >Main</a></li>
+                        <li class="header__nav-item"><a href="#" >About Us</a></li>
+                        <li class="header__nav-item"><a href="#" >Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+    <!-- HEADER NAVIGATION END-->
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="contaner">
+            <div class="row">
+                <div class="card__holder">
+                    <a href="#" class="card__link">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/courses/course01.png" alt="course01">
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">Знайомство з IT: тест-драйв професій</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card__link">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/courses/course04.png" alt="course04">
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">Основи DevOps та Kubernetes від GlobalLogic</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card__link">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/courses/course03.jpg" alt="course03">
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">Основи Kubernetes</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card__link">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/courses/course05.png" alt="course05">
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">Автоматичне тестування від GlobalLogic</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card__link">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/courses/course06.png" alt="course06">
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">QA Manual від GlobalLogic</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="card__link">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/courses/course07.png" alt="course07">
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">Front-end. Повний курс для початківців</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <!-- ASIDE -->
+                <aside class="sidebar">
+                    <form action="#" class="form">
+                        <div class="wigdet">
+                            <div class="widget__title">
+                                Search courses
+                            </div>
+                            <div class="widget__body autoComplete_wrapper">
+                                <input autocomplete="off" type="text" class="form__input" id="location" placeholder="Search course">
+                            </div>
+                        </div>
+                         <!-- THEME -->
+                        <div class="widget">
+                            <div class="widget__title">
+                                Themes
+                            </div>
+                            <div class="widget__body">
+                                <label class="radio">
+                                    <input type="radio" class="radio__real" name="theme">
+                                    <span class="radio__titile">Science</span>
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" class="radio__real" name="theme">
+                                    <span class="radio__titile">Mathematics</span>
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" class="radio__real" name="theme">
+                                    <span class="radio__titile">History</span>
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" class="radio__real" name="theme">
+                                    <span class="radio__titile">Cultury</span>
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" class="radio__real" name="theme" checked>
+                                    <span class="radio__titile">IT</span>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- LEAVEL -->
+                        <div class="widget">
+                            <div class="widget__title">
+                                Leavels
+                            </div>
+                            <div class="widget__body">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" name="leavel" checked>
+                                    <span class="checkbox__titile">Beginner</span>
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" name="leavel">
+                                    <span class="checkbox__titile">Intermediate</span>
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" name="leavel">
+                                    <span class="checkbox__titile">Advanced</span>
+                                </label>
+                            </div>
+                        </div>
+                        <!--BUTTON-->
+                        <div class="widget">
+                            <div class="widget__body">
+                                <button class="btn-submit">Apply filters</button>
+                            </div>
+                            <div class="widget-body">
+                                <button type="reset" class="btn-reset">Reset filters</button>
+                            </div>                   
+                        </div>
+                        <!--BUTTON END-->
+                    </form>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN END-->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="contaner">
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="./img/social/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="./img/social/insta.png" alt="insta">
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="./img/social/twitter.png" alt="twitter">
+                    </a>
+                </li>
+            </ul>
+            <h2 class="copyright">© 2023 All Rights Reserved</h2>
+        </div>
+    </footer>
+    <!-- FOOTER END-->
+
+    <script src="./libs/autoComplete/dist/autoComplete.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
